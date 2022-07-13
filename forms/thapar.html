@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1</title>
+    <style>
+        video{
+            position: fixed;
+            z-index: -1;
+            bottom: 0;
+            width: 100%;
+        }
+
+        #box{
+            width: 450px;
+            height: 700px;
+            margin: 7% auto;
+            border-radius: 25px;
+            background-color: rgba(0,0,0,0.1);
+            box-shadow: 0 0 17px #fff;
+        }
+
+        #heading
+        {
+            text-align: center ;
+            padding-top: 75px;
+            color: white;
+            font-weight: bolder;
+
+        }
+
+        .header h1{
+            color: #fff;
+            font-size: 45px;
+            margin-bottom: 80px;
+        }
+
+        #content input,button 
+        {
+            width: 140px;
+            height: 45px;
+            border-radius: 25px;
+            background-color: rgba(0,0,0,0.1) ;
+            border: none;
+            outline: none;
+            padding-left: 30px;
+            box-sizing: border-box;
+            font-size: 15px;
+            margin-bottom: 20px;
+            margin-left: 155px;
+            
+        }
+
+        #content button{
+          
+            padding-left: 0px;
+            border-radius: 25px;
+            background-color: rgba(0,0,0,0.1);
+            letter-spacing: 1px;
+            font-weight: bold;
+            margin-bottom: 70px;
+            margin-left: 150px;
+            color: white;
+        }
+
+        content button:hover{
+            box-shadow: 2px 2px 5px #fff;
+            border-radius: 25px;
+            background-color: rgba(0,0,0,0.1);
+        }
+
+        #content div{
+            position: relative;
+        }
+
+        .main i{
+            position: absolute;
+            left: 15px;
+            color: #fff;
+            font-size: 16px;
+            top: 2px;
+        }
+    
+
+        p{
+            margin-left: 0px;
+            color: white;
+            font-weight: bold;
+            text-align: center;
+            align-items: center;
+        }
+
+       
+    </style>
+</head>
+
+<body>
+ <div id="box">
+    <div id="heading">
+        <h1>Heading</h1>
+    </div>
+    <br>
+    <div id="content">
+        <form action="">
+            <div>
+              <p>Enter your detail 1 </p>
+                <input id="i1" type="text" placeholder="placeholder1">
+            </div>
+            
+            <br>
+
+            <div>
+                <p>Enter you detail 2</p>
+                <input type="text" placeholder="placeholder2">
+            </div>
+            
+            <br>
+
+            <div>
+                <p>Enter your detail 3</p>
+                <input type="text" placeholder="placeholder3">
+            </div>
+            
+            <br>
+
+            <button id="button_sub">submit</button>
+        </form>
+    </div>
+ </div>
+
+ <video src="bg.mp4" autoplay loop muted plays-inline></video>
+</body>
